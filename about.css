@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    font-family: 'Ububtu',sans-serif;
+}
+
+nav ul{
+    display:flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(49, 188, 206);
+    color: whitesmoke;
+}
+nav ul li{
+    padding: 0 12px;
+    margin: 90px;
+}
+.Brand img{
+    width: 49px;
+    padding: 0 8px;
+}
+
+.Brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.conterner{
+    min-height: 80vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url('abg.png');
+    background-size: contain;
+}
+
+P{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.filmstar h1{
+    margin-top: 250px;
+    position: relative;
+    left: 400px;
+    color: rgb(180, 74, 166)
+    
+}
+
+
+.filmstar h2{
+    margin-top: 150px;
+    position: relative;
+    left: 360px;
+    color: rgb(189, 29, 29)
+}
+
+
